@@ -120,7 +120,7 @@ plt.plot(X_test, gdp_y_pred, color='blue', linewidth=3)
 
 plt.title('GDP per capita vs Poverty Headcount')
 plt.xlabel('GDP per capita')
-plt.ylabel('Poverty Headcount')
+plt.ylabel('Poverty Headcount (% of population)')
 plt.show()
 
 X_train, X_test, y_train, y_test = train_test_split(X_gini,y, train_size = .75, test_size = 0.25 , random_state = 0)
@@ -154,7 +154,7 @@ plt.plot(X_test, gini_y_pred, color='blue', linewidth=3)
 
 plt.title('Gini Index vs Poverty Headcount')
 plt.xlabel('Gini Index')
-plt.ylabel('Poverty Headcount')
+plt.ylabel('Poverty Headcount (% of population)')
 plt.show()
 
 X_train, X_test, y_train, y_test = train_test_split(X_lit,y, train_size = .75, test_size = 0.25 , random_state = 0)
@@ -187,8 +187,8 @@ plt.scatter(X_test, y_test,  color='black')
 plt.plot(X_test, lit_y_pred, color='blue', linewidth=3)
 
 plt.title('Literacy Rate vs Poverty Headcount')
-plt.xlabel('Literacy Rate')
-plt.ylabel('Poverty Headcount')
+plt.xlabel('Literacy Rate (% of adults)')
+plt.ylabel('Poverty Headcount (% of population)')
 
 plt.show()
 X_train, X_test, y_train, y_test = train_test_split(X_sec,y, train_size = .75, test_size = 0.25 , random_state = 0)
@@ -220,8 +220,8 @@ print('Coefficient of determination: %.2f'
 plt.scatter(X_test, y_test,  color='black')
 plt.plot(X_test, sec_y_pred, color='blue', linewidth=3)
 plt.title('Secondary School Enrollment vs Poverty Headcount')
-plt.xlabel('Secondary School Enrollment ')
-plt.ylabel('Poverty Headcount')
+plt.xlabel('Secondary School Enrollment (% of gross)')
+plt.ylabel('Poverty Headcount (% of population)')
 plt.show()
 X_train, X_test, y_train, y_test = train_test_split(X_ter,y, train_size = .75, test_size = 0.25 , random_state = 0)
 
@@ -253,7 +253,7 @@ plt.scatter(X_test, y_test,  color='black')
 plt.plot(X_test, ter_y_pred, color='blue', linewidth=3)
 
 plt.title('Tertiary School Enrollment vs Poverty Headcount')
-plt.xlabel('Tertiary School Enrollment ')
-plt.ylabel('Poverty Headcount')
+plt.xlabel('Tertiary School Enrollment (% of gross)')
+plt.ylabel('Poverty Headcount (% of population)')
 
 plt.show()
