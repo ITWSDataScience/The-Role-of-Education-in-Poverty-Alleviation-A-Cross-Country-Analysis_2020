@@ -36,10 +36,10 @@
      among individuals or households within an economy deviates from a perfectly equal distribution. 
    - Source: https://data.worldbank.org/indicator/SI.POV.GINI
    - Files associated:
-    - 2.2.1 gini_index_xls (raw data - Downloaded from the Web) 
-    - 2.2.2 gini_index_csv Changed format so we could work with it)
-    - 2.2.3 _meta_gini_index.csv (Metadata of dataset)
-    - 2.2.4 clean_gini_index.csv (cleased data)
+      - 2.2.1 gini_index_xls (raw data - Downloaded from the Web) 
+      - 2.2.2 gini_index_csv Changed format so we could work with it)
+      - 2.2.3 _meta_gini_index.csv (Metadata of dataset)
+      - 2.2.4 clean_gini_index.csv (cleased data)
    - data size: 264 x 64
    - Missing data is interpolated/extrapolated.
    - Region and IncomeGroup column are added in the dataset
@@ -62,10 +62,10 @@
      $1.90 a day at 2011 international prices. 
    - Source: https://data.worldbank.org/indicator/SI.POV.DDAY
    - Files associated:
-    - 2.4.1 poverty headcount ratio at 1.90 dollar per day.xls (raw data - Downloaded from the Web) 
-    - 2.4.2 poverty_headcount_ratio_1.90.csv (Changed format so we could work with it)
-    - 2.4.3 _meta_poverty_headcount_ratio_1.90.csv (Metadata of dataset)
-    - 2.4.4 clean_poverty_head.csv (cleased data)
+      - 2.4.1 poverty headcount ratio at 1.90 dollar per day.xls (raw data - Downloaded from the Web) 
+      - 2.4.2 poverty_headcount_ratio_1.90.csv (Changed format so we could work with it)
+      - 2.4.3 _meta_poverty_headcount_ratio_1.90.csv (Metadata of dataset)
+      - 2.4.4 clean_poverty_head.csv (cleased data)
    - data size: 264 x 64
    - Missing data is interpolated/extrapolated.
    - Region and IncomeGroup column are added in the dataset
@@ -75,10 +75,10 @@
     officially corresponds to the level of education shown.
    - Source: https://data.worldbank.org/indicator/SE.SEC.ENRR
    -Files associated:
-    - 2.5.1 School enrollment, secondary (% gross).xls (raw data - Downloaded from the Web) 
-    - 2.5.2 school enrollment_secondary.csv (Changed format so we could work with it)
-    - 2.5.3 _meta_school enrollment_secondary.csv (Metadata of dataset)
-    - 2.5.4 clean_school_enrol_sec.csv (cleased data)
+      - 2.5.1 School enrollment, secondary (% gross).xls (raw data - Downloaded from the Web) 
+      - 2.5.2 school enrollment_secondary.csv (Changed format so we could work with it)
+      - 2.5.3 _meta_school enrollment_secondary.csv (Metadata of dataset)
+      - 2.5.4 clean_school_enrol_sec.csv (cleased data)
   - data size: 264 x 64
   - Missing data is interpolated/extrapolated.
   - Region and IncomeGroup column are added in the dataset
