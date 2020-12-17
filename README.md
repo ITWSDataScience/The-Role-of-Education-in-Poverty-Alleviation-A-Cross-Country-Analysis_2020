@@ -105,7 +105,7 @@
 
 ## 3.2 Extrapolation
   - Missing data is replaced with the first value/the last value. 
-  - ex) na, na, na, 1, 3, 5, 7, na, na  ===> 1, 1, 1, 1, 3, 5, 7, 7, 7
+  - ex) na, na, na, 1, 3, 5, 7, na, na  ===> 1, 1, 1, 1, 3, 5, 7, 7, 7 
 
 # 4. Data Analytics
   - Code is located in code folder in two notebook files:
