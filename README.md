@@ -1,15 +1,13 @@
 # Team3_2020 - The Role of Education in Poverty Alleviation: A Cross Country Analysis
 
-
-## 0. Hypothesis:
-  - Income growth affects more the incidence of poverty than education level.
+## 0. Hypothesis
+  - Hypothesis 1: The income growth of an individual will negatively affect the incidence of poverty.
+  - Hypothesis 2: The education level attained by an individual will negatively affect the incidence of poverty.
+  - Hypothesis 3: The income growth will have a greater effect on the incidence of poverty than the education level attained by the individual.
 
 ## 1. Project Description
   - This project Rensselaer Polytechnic Institute (RPI) ITWS 6350 Final Project
   - The goal of our project was to go through the three hypothesis that we created and determine results that would help poverty eradication
-    - Hypothesis 1: The income growth of an individual will negatively affect the incidence of poverty.
-    - Hypothesis 2: The education level attained by an individual will negatively affect the incidence of poverty.
-    - Hypothesis 3: The income growth will have a greater effect on the incidence of poverty than the education level attained by the individual.
   
 ## 2. Data Description
   - For our data we collected datasets from the world bank databank that we believed would help contribute to our hypothesis, the datasets were:
@@ -85,7 +83,7 @@
   - Missing data is interpolated/extrapolated.
   - Region and IncomeGroup column are added in the dataset
 
-### 1.6 School enrollment, tertiary (% gross)
+### 2.6 School enrollment, tertiary (% gross)
   - Gross enrollment ratio is the ratio of total enrollment, regardless of age, to the population of the age group that 
     officially corresponds to the level of education shown. 
   - Source: https://data.worldbank.org/indicator/SE.TER.ENRR
@@ -105,9 +103,11 @@
   - Missing data is interpolated with linear interpolation between two values. 
   - R function, "na.fill" is used to interpolate missing values.
 
-# 3.2 Extrapolation
+## 3.2 Extrapolation
   - Missing data is replaced with the first value/the last value. 
   - ex) na, na, na, 1, 3, 5, 7, na, na  ===> 1, 1, 1, 1, 3, 5, 7, 7, 7
 
-
-
+# 4. Data Analytics
+  - Code is located in code folder in two notebook files:
+    - K-Means Clustering : Clustering - Poverty.ipynb
+    - Linear Regression : Regression - Poverty.ipynb
